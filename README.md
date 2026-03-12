@@ -33,10 +33,10 @@ The game includes multiple difficulty levels, animations, sound effects, and int
 ---
 📸 Screenshot
 
-![SS](./SS1.png)
-![SS](./SS2.png)
-![SS](./SS3.png)
-![SS](./SS4.png)
+![SS](.screenshots/SS1.png)
+![SS](.screenshots/SS2.png)
+![SS](.screenshots/SS3.png)
+![SS](.screenshots/SS4.png)
 ---
 ## 🎯 Difficulty Levels
 
