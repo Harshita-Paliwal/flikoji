@@ -31,7 +31,13 @@ The game includes multiple difficulty levels, animations, sound effects, and int
 * 📱 Responsive UI
 
 ---
+📸 Screenshot
 
+![](./SS1.png)
+![](./SS2.png)
+![](./SS3.png)
+![](./SS4.png)
+---
 ## 🎯 Difficulty Levels
 
 | Level  | Grid Size | Pairs |
