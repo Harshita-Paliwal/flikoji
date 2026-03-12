@@ -1,16 +1,127 @@
-# React + Vite
+# 🃏 Flikoji – Memory Matching Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Flikoji is a fun **React-based memory card game** where players flip cards, match emoji pairs, and try to complete the board in the least number of moves and time.
 
-Currently, two official plugins are available:
+The game includes multiple difficulty levels, animations, sound effects, and interactive UI elements to make gameplay engaging.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🎮 Gameplay
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Click a card to flip it.
+2. Flip another card to find its matching pair.
+3. If both cards match, they disappear.
+4. If they don't match, they flip back.
+5. Match all pairs to win the game.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* 🃏 Card flipping animation
+* 🎯 Move counter
+* ⏱ Timer tracking
+* 🔥 Combo tracking
+* 👁 Peek feature (reveal cards briefly)
+* 🎚 Multiple difficulty levels
+* 🎨 Light / Dark theme toggle
+* 🔊 Sound effects (flip, match, win)
+* 🏆 Best score tracking with LocalStorage
+* 🎉 Confetti celebration on win
+* 📱 Responsive UI
+
+---
+
+## 🎯 Difficulty Levels
+
+| Level  | Grid Size | Pairs |
+| ------ | --------- | ----- |
+| Easy   | 4 × 3     | 6     |
+| Medium | 5 × 4     | 10    |
+| Hard   | 6 × 6     | 18    |
+
+---
+
+## ⚙️ Tech Stack
+
+* **React**
+* **Vite**
+* **JavaScript**
+* **CSS Animations**
+* **LocalStorage**
+
+---
+
+## 📂 Project Structure
+
+```
+flikoji
+│
+├── public
+├── src
+│   ├── Flikoji.jsx
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 💻 Run the Project Locally
+
+Clone the repository:
+
+```
+git clone https://github.com/Harshita-Paliwal/flikoji.git
+```
+
+Go inside the project folder:
+
+```
+cd flikoji
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Start the development server:
+
+```
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Multiplayer mode
+* Leaderboard system
+* Mobile app version
+* Additional card themes
+* AI opponent mode
+
+---
+
+## 👩‍💻 Author
+
+**Harshita Paliwal**
+
+GitHub:
+https://github.com/Harshita-Paliwal
+
+---
+
+⭐ If you like this project, consider giving it a star!
+
